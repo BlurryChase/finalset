@@ -1,0 +1,46 @@
+{
+  "SF6" :{
+    "nameSize" : 40,
+    "nameMove" : [ "-60px", "60px"],
+    "nameTime" : 0.3,
+  
+    "rdSize" : 22,
+    "rdTime" : 0.2,
+  
+    "scTime" : 0.3,
+    "scDelay" : 0
+  },
+  "AVATAR" :{
+    "nameSize" : 40,
+    "nameMove" : [ "-60px", "60px"],
+    "nameTime" : 0.3,
+  
+    "rdSize" : 22,
+    "rdTime" : 0.2,
+  
+    "scTime" : 0.3,
+    "scDelay" : 0
+  },
+  "TEKKEN" :{
+    "nameSize" : 40,
+    "nameMove" : [ "-60px", "60px"],
+    "nameTime" : 0.3,
+  
+    "rdSize" : 22,
+    "rdTime" : 0.2,
+  
+    "scTime" : 0.3,
+    "scDelay" : 0
+  },
+  "TOKON" :{
+    "nameSize" : 40,
+    "nameMove" : [ "-60px", "60px"],
+    "nameTime" : 0.3,
+  
+    "rdSize" : 22,
+    "rdTime" : 0.2,
+  
+    "scTime" : 0.3,
+    "scDelay" : 0
+  }
+}

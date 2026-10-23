@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Medium';	
+  /*background-image: url('imgs/scoreboard/guide.png');*/
+  background-repeat: no-repeat;
+  font-size: 14px;
+  /* color:#FFFFFF; */
+  overflow: hidden;
+  width:1920px;
+  height:1080px;
+  text-align: center;
+  text-transform: uppercase;
+  color:white
+}
+
+#lowerThirdBG {
+  position: absolute;
+  height: 1080px;
+  width: 1920px;
+  opacity: 1;
+  border-radius: 80px;
+  background: url(./png/BarTransition.png);
+}
+
+
+#topWrapper {
+  font-family: MainFont;
+  position: absolute;
+  left: 24px;
+  bottom: 132px;
+  font-size: 60px;
+  width: 460px;
+  height: 60px;
+  line-height: 60px;
+  
+  opacity: 1;
+  /* background-color: brown; */
+}
+
+#lowerThirdsTop {
+  height: 70px;
+  line-height: 70px;
+  opacity: 0;
+}
+
+#bottomWrapper {
+  position: absolute;
+  bottom: 84px;
+  left: 10px;
+  font-family: BoldItalic;
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+
+  opacity: 1;
+  /* background-color: brown; */
+}
+
+#lowerThirdsBottom {
+  height: 70px;
+  line-height: 70px;
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "brbText" : {
+      "type": "string",
+      "description": "brb text",
+      "default" : "Up Next: Street Fighter 6!"
+    }
+  },
+
+  "required": ["brbText"]
+}

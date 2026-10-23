@@ -1,0 +1,14 @@
+@font-face {
+	font-family: mainFont;
+	src: url('./font/WinkyRough-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: BoldItalic;
+	src: url('./font/WinkyRough-SemiBoldItalic.ttf');
+}
+
+@font-face {
+	font-family: ThinFont;
+	src: url('./font/WinkyRough-Light.ttf');
+}

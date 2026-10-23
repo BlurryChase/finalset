@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+button {
+  padding: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white !important;
+  color: black;
+}
+
+#submitButton, #streamsBtn, #pushButton {
+  background-color: green;
+}
+
+
+#clearButton, #clearL3rdButton, #clearBRBButton {
+  background-color: red;
+}
+
+#swapButton, #queueSetsBtn, #loadMaplist  {
+  background-color: blueviolet;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 5px;
+  border-style: none;
+}
+

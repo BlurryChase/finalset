@@ -1,0 +1,95 @@
+{
+  "name": "finalset",
+  "version": "0.0.0",
+  "description": "bye-bye beebs brawl",
+  "homepage": "",
+  "author": {
+    "name": "Chase K",
+    "email": "hyuu.cc",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^2.0.0",
+    "dashboardPanels": [
+      {
+        "name": "graphicControl",
+        "title": "Graphics Control",
+        "width": 2,
+        "file": "dGraphicControl.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "brbdash",
+        "title": "Downtime Dashboard",
+        "width": 3,
+        "file": "brbdash.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "eventgame",
+        "title": "Game Selector",
+        "width": 3,
+        "file": "dEventGame.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "scoreboard.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "lowerthird.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "casters.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "brb_text.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "brb_timer.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.20.1"
+  }
+}

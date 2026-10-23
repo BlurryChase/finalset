@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/font.css">	
+<title>NodeFGC - Scoreboard</title>
+</head>
+<body>
+	<div id="scoreBG"></div>
+
+	<div id="scoreboard">
+		<div id="leftWrapper" class="wrappers">
+			<span id="p1Wrapper" class="nameWrapper">
+				<span id="p1Team" class="teams"></span>
+				<span id="p1Name" class="names"></span>
+			</span>
+			<span id="p1Score" class="scores"></span>
+		</div>
+
+		<div id="rightWrapper" class="wrappers">
+			<span id="p2Score" class="scores"></span>
+			<span id="p2Wrapper" class="nameWrapper">
+				<span id="p2Team" class="teams"></span>
+				<span id="p2Name" class="names"></span>
+			</span>
+		</div>
+
+		<div id="matchWrapper">
+			<span id="matchLocation" class="rounds"></span>
+			<span id="matchLength" class="formats"></span>
+		</div>
+	</div>
+
+	<script src="js/textFit/textFit.js"></script> <!-- textFit v2.4.0 -->
+	<script src="js/gsap-public/minified/gsap.min.js"></script> <!-- GSAP v3.12.0 -->
+	<script src="js/scoreboard.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Medium';	
+  background-image: url('./png/BRB.png');
+  background-repeat: no-repeat;
+  font-size: 14px;
+  /* color:#FFFFFF; */
+  overflow: hidden;
+  width:1920px;
+  height:1080px;
+  text-align: center;
+  text-transform: uppercase;
+  color:white
+}
+
+
+#textWrapper {
+  font-family: ThinFont;
+  position: absolute;
+  left: 520px;
+  bottom: 216px;
+  font-size: 80px;
+  width: 880px;
+  height: 120px;
+  line-height: 120px;
+  
+  opacity: 0;
+  /* background-color: brown; */
+}
+
+
+#panelTimer {
+  font-family: ThinFont;
+  position: absolute;
+  left: 520px;
+  bottom: 216px;
+  font-size: 80px;
+  width: 880px;
+  height: 120px;
+  line-height: 120px;
+  
+  opacity: 0;
+  /* background-color: brown; */
+}

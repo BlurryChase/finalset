@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "scoreVisibility" : {
+      "type": "boolean",
+      "description": "Visibility for Score",
+      "default" : true
+    },
+    "casterVisibility" : {
+      "type": "boolean",
+      "description": "Visibility for Casters",
+      "default" : true
+    },    
+    "lowerThirdVisibility" : {
+      "type": "boolean",
+      "description": "Visibility for Lower Thirds",
+      "default" : true
+    }
+  },
+
+  "required": ["scoreVisibility", "casterVisibility", "lowerThirdVisibility"]
+}
